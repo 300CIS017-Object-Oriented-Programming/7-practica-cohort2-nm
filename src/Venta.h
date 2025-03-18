@@ -22,5 +22,4 @@ class Venta {
 
 };
 
-
 #endif //VENTA_H

@@ -1,0 +1,3 @@
+/Users/nicocr/Downloads/Prog.Orient.Obj/7-practica-cohort2-nm/cmake-build-actividad2/CMakeFiles/POOSistemaGestionVentas.dir
+/Users/nicocr/Downloads/Prog.Orient.Obj/7-practica-cohort2-nm/cmake-build-actividad2/CMakeFiles/edit_cache.dir
+/Users/nicocr/Downloads/Prog.Orient.Obj/7-practica-cohort2-nm/cmake-build-actividad2/CMakeFiles/rebuild_cache.dir

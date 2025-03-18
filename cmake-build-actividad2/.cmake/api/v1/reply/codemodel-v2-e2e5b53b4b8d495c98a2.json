@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "POOSistemaGestionVentas",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "POOSistemaGestionVentas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-POOSistemaGestionVentas-Debug-2eedf1aca189ba5cc6cc.json",
+					"name" : "POOSistemaGestionVentas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nicocr/Downloads/Prog.Orient.Obj/7-practica-cohort2-nm/cmake-build-actividad2",
+		"source" : "/Users/nicocr/Downloads/Prog.Orient.Obj/7-practica-cohort2-nm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

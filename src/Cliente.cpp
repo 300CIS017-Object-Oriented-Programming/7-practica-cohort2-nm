@@ -3,3 +3,13 @@
 //
 
 #include "Cliente.h"
+
+
+void Cliente:: agregarCompra(Venta* venta){
+  }
+
+void Cliente:: mostrarHistorialCompras(){
+  }
+
+string Cliente:: getNombre(){
+  }

@@ -20,6 +20,7 @@ class Venta {
     float calcularTotal();
     void mostrarDetalleVenta();
 
+
 };
 
 #endif //VENTA_H

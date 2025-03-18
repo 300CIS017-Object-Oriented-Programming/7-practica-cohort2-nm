@@ -14,6 +14,7 @@ private:
   float precio;
   int cantidadInicial;
 
+
   public:
     bool descontarStock(int cantidad);
     void agregarStock(int cantidad);

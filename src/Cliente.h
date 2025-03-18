@@ -5,7 +5,7 @@
 #ifndef CLIENTE_H
 #define CLIENTE_H
 #include <vector>
-
+#include <string>
 
 class Cliente {
   private:

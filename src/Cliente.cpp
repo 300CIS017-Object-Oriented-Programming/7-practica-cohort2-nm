@@ -5,11 +5,11 @@
 #include "Cliente.h"
 
 
-void Cliente:: agregarCompra(Venta* venta){
+void Cliente::agregarCompra(Venta* venta){
   }
 
-void Cliente:: mostrarHistorialCompras(){
+void Cliente::mostrarHistorialCompras(){
   }
 
-string Cliente:: getNombre(){
+string Cliente::getNombre(){
   }

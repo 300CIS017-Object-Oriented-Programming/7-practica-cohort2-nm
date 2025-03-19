@@ -5,12 +5,17 @@
 #ifndef SISTEMAGESTION_H
 #define SISTEMAGESTION_H
 #include <vector>
+#include <string>
+#include "Venta.h"
+#include "Cliente.h"
+#include "Producto.h"
+using namespace std;
 
 class SistemaGestion {
       private:
-        vector<cliente> Clientes;
-        vector<producto> Productos;
-        vector<venta> Ventas;
+        vector<Cliente> clientes;
+        vector<Producto> productos;
+        vector<Venta> ventas;
 
       public:
         void agregarProducto(string codigo, string nombre, float precio, int stockInicial);
@@ -23,7 +28,4 @@ class SistemaGestion {
         float calcularValorInventario();
 
 };
-
-
-
 #endif //SISTEMAGESTION_H

@@ -6,12 +6,15 @@
 #define CLIENTE_H
 #include <vector>
 #include <string>
+#include "Producto.h"
+#include "Venta.h"
+using namespace std;
 
 class Cliente {
   private:
     string nombre;
     string idCliente;
-    vector<Producto> compras;
+    vector<Venta> compras;
 
   public:
     void agregarCompra(Venta* venta);

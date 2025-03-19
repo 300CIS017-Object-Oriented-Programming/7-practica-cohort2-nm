@@ -20,6 +20,7 @@ class Cliente {
     void agregarCompra(Venta* venta);
     void mostrarHistorialCompras();
     string getNombre();
+    string getId();
 };
 
 

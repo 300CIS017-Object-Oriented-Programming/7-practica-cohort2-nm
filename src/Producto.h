@@ -18,6 +18,7 @@ private:
   public:
     bool descontarStock(int cantidad);
     void agregarStock(int cantidad);
+    string getId();
 };
 
 

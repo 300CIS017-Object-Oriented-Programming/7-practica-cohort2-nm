@@ -11,7 +11,7 @@ using namespace std;
 class Venta {
   private:
     string ID;
-    Cliente *cliente;
+    Cliente cliente;
     vector<Producto> productosVendidos;
 
   public:

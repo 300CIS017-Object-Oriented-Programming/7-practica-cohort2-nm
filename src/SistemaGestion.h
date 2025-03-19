@@ -19,7 +19,7 @@ class SistemaGestion {
 
       public:
         void agregarProducto(string codigo, string nombre, float precio, int stockInicial);
-        void registrarVenta(int idCliente);
+        void registrarVenta(string idCliente);
         void reabastecerProducto(string codigoProducto, int cantidad);
         Producto* buscarProducto(string ID);
         Cliente* buscarCliente(string idCliente);

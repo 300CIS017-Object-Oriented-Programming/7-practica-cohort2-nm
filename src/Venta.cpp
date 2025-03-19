@@ -10,11 +10,14 @@ void Venta::agregaProductoVendido(Producto* producto, int cantidad){
   this->productosVendidos.push_back(*producto);
 }
 
-float calcularTotal(){}
-void mostrarDetalleVenta(){
+float Venta::calcularTotal(){
+
+  return 0.0;
+}
+
+void Venta::mostrarDetalleVenta(){
   cout << "Detalle de venta: " << endl;
   cout << "ID de venta: " << this->ID << endl;
-  cout << "Nombre del cliente: " << this->*cliente.getNombre() << endl;
-
+  cout << "Nombre del cliente: " << cliente.getNombre() << endl;
 
 }

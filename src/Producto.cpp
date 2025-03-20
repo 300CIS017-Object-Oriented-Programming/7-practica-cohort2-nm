@@ -1,5 +1,6 @@
 
 #include "Producto.h"
+
 bool Producto::descontarStock(int cantidad){
   int stock = this->cantidadInicial;
   bool resultado = false;
@@ -16,3 +17,5 @@ void Producto::agregarStock(int cantidad){
 string Producto::getId(){
   return this->ID;
  }
+
+void imprimirProducto(){}

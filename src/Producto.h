@@ -19,6 +19,7 @@ private:
     bool descontarStock(int cantidad);
     void agregarStock(int cantidad);
     string getId();
+    void imprimirProducto();
 };
 
 

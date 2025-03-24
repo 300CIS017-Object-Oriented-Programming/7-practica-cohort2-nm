@@ -35,14 +35,14 @@ Cliente* cliente = buscarCliente(idCliente);
     }
 
 void SistemaGestion:: reabastecerProducto(string codigoProducto, int cantidad){
-  Producto* producto = buscarProducto(codigoProducto);{
+  Producto* producto = buscarProducto(codigoProducto);
     if(producto){
       producto->agregarStock(cantidad);
       }else{
         cout <<"No se encontro el producto" << endl;
       }
 }
-}
+
 
 Producto* SistemaGestion::buscarProducto(string ID){
   for(int i = 0; i < productos.size(); i++){

@@ -16,7 +16,7 @@ class SistemaGestion {
 
       public:
         SistemaGestion(); //constructor sin parametros
-        ~SistemaGestion(); //destructor
+        ~SistemaGestion();
         void agregarProducto(string codigo, string nombre, float precio, int stockInicial);
         void registrarVenta(string idCliente);
         void reabastecerProducto(string codigoProducto, int cantidad);

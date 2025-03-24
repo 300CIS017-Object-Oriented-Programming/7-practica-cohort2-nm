@@ -1,6 +1,3 @@
-//
-// Created by Lenovo on 18/03/2025.
-//
 
 #ifndef CLIENTE_H
 #define CLIENTE_H
@@ -14,13 +11,16 @@ class Cliente {
   private:
     string nombre;
     string idCliente;
-    vector<Venta> compras;
+    vector<Venta*> compras;
 
   public:
+    Cliente(); //constructor sin parametros
+    Cliente(string nombre, string idCliente);
+    ~Cliente(); //destructor
     void agregarCompra(Venta* venta);
     void mostrarHistorialCompras();
     string getNombre();
-    string getId();
+    string getIdCliente();
 };
 
 

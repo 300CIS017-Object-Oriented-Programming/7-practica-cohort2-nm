@@ -1,6 +1,3 @@
-//
-// Created by Lenovo on 18/03/2025.
-//
 
 #ifndef SISTEMAGESTION_H
 #define SISTEMAGESTION_H
@@ -13,11 +10,13 @@ using namespace std;
 
 class SistemaGestion {
       private:
-        vector<Cliente> clientes;
-        vector<Producto> productos;
-        vector<Venta> ventas;
+        vector<Cliente*> clientes;
+        vector<Producto*> productos;
+        vector<Venta*> ventas;
 
       public:
+        SistemaGestion(); //constructor sin parametros
+        ~SistemaGestion(); //destructor
         void agregarProducto(string codigo, string nombre, float precio, int stockInicial);
         void registrarVenta(string idCliente);
         void reabastecerProducto(string codigoProducto, int cantidad);

@@ -11,11 +11,13 @@ using namespace std;
 class Venta {
   private:
     string ID;
-    Cliente cliente;
-    vector<Producto> productosVendidos;
+    Cliente* cliente;
+    vector<Producto*> productosVendidos;
 
   public:
+    Venta(); //constructor sin parametros
     Venta(Cliente* cliente);
+    ~Venta(); //Destrusctor
     void agregaProductoVendido(Producto* producto, int cantidad);
     float calcularTotal();
     void mostrarDetalleVenta();
